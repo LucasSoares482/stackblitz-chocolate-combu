@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login de usuario da Combu</title>
+    <link rel="shortcut icon" href="chocolate.png" type="image/x-icon">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+
+<header>
+    <div class="conteiner_cabecalho">
+        <h1 class="titulo">Chocombu&#8482;</h1>
+        <h1>A linha editada no github foi removida</h1>
+        <p><b class="formulario">Formulario de cadastro</b></p>
+        <h2 class="barra"><a href="catalogo.html">Catálogo</a></h2>
+        <h2 class="barra"><a href="index.html"><b>site principal</b></a>
+        </h2>
+        <h2 class="barra"><a href="cadastro.html">Avaliações</a></h2>
+    </div>
+</header>
+
+<section id="hero">
+    <div class="hero-content">
+        <h2>Descubra os melhores chocolates feitos com cacau da Ilha do Combu!</h2>
+    </div>
+</section>
+
+<body>
+
+    <div class="catalogodechocolates">
+
+
+        <!--Primeira parte do login do usuario sobre informações pessoais-->
+
+        <br>
+        <section id="register">
+            <h2>Preencha os campos abaixo</h2>
+            <hr>
+            <section id="login">
+                <div class="abadelogin">
+
+                    <b class="pessoais">Dados pessoais</b>
+                    <b>
+                        <p>Nome: <input type="text" name="" id="" size="30"></p>
+                        <p>E-mail: <input type="text" name="" id="" size="30"></p>
+                        <p>Idade: <input type="text" name="" id="" size="5"></p>
+                        <p>
+                            <b>Seu aniversario:</b>
+                            <input type="date" name="nasc" id="">
+                        </p>
+                        <p>CEP: <input type="text" name="" id="" size="5"></p>
+                        <p>Telefone fixo (opcional): <input type="text" name="" id="" size="5"></p>
+                        <p>Numero de celular (opcional): <input type="text" name="" id="" size="5"></p>
+                        <p>
+                            <b>Possui empresa fisica? qual nome? (opcional):</b> <input type="text" name="" id="">
+                        </p>
+                    </b>
+
+                    <p>
+                        <b>Estado:</b>
+                        <select name="Estado Escolha" id="">
+                            <option value="Pernambuco">Pernambuco</option>
+                            <option value="Piauí">Piauí</option>
+                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            <option value="Rio Grande do Norte Natal">Rio Grande do Norte Natal</option>
+                        </select>
+                    </p>
+                    <p>
+                        <b>qual sua finalidade com os produtos da Combu? (opcional)</b>
+                    </p>
+                    <input type="radio" name="Asistemas" id="">Consumo pessoal
+                    <input type="radio" name="Abanco" id="">Vendas
+                    <input type="radio" name="Asuporte" id="">Uso industrial
+            
+            
+                    <!--segunda parte do login de usuario sobre suas preferencias de compra-->
+                    <hr>
+                    <legend><b class="profissionais">Notificações</b></legend>
+                    <p><b>quais notificações você gostaria de receber em seu E-mail? :</b></p>
+                    <form action="">
+                        <b>
+                            <input type="radio" name="Asistemas" id="">Melhores descontos
+                            <input type="radio" name="Abanco" id="">Melhores produtos
+                            <input type="radio" name="Asuporte" id="">Novos produtos
+                        </b>
+                    </form>
+                    <p><b>Possui alguma preferencia especial? digite aqui:</b></p>
+                    <textarea name="" id="" cols="30" rows="10" class="amarelo"></textarea>
+
+                    <!--terceira parte do login de usuario sobre enviar seus dados-->
+                    <hr>
+                    <legend><b class="acao">Finalizar</b></legend><br>
+                    <form action="">
+                        <input type="submit" value="Enviar" class="enviar">
+                        <input type="submit" value="Limpar" class="limpar">
+                    </form>
+                    
+                </div>
+            </section>
+        </section>
+        
+        <p><b><a href="index.html">Clique aqui para cancelar o cadastro e retornar ao site principal</a></b></p>
+        
+    </div>
+    <footer class="pedosite">
+        <p>&copy; 2024 Ilha do Combu Chocolates. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

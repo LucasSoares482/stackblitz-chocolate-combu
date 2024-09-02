@@ -1,0 +1,93 @@
+
+.retornar {
+    font-size: 25px;
+}
+
+.titulo {
+    
+    font-size: 50px;
+}
+
+.tituloprincipal {
+    font-size: 50px;
+}
+
+.conteiner_cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    background-color: #d2691e;
+    padding: 10px 20px;
+}
+.catalogodechocolates {
+    background-color: orange;
+    height: 75%;
+    
+}
+.espaco {
+    height: 40px;
+}
+.pessoais{
+    border-style: outset;
+}
+.profissionais{
+    border-style: outset;
+}
+.acao{
+    border-style: outset;
+}
+.formulario{
+    font-size: 35px;
+}
+#hero{
+    background-image: url('./combu02.png');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+  }
+  
+  #hero .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+    color:#000
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+
+.header {
+    background-color: #d2691e;
+    padding: 10px 20px;
+  }
+
+  .pedosite {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+#register{
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color:#f8c291 ;
+    padding: 5px;
+    margin: 5px;
+  }
+  .barra {
+    margin: 10px;
+    
+}
+
+.barra a {
+    color: white;
+    justify-content: space-between;
+
+}
+  
