@@ -7,7 +7,7 @@ body {
     background-color: orange;
 }
 
-/* tudo nestas linhas abaixo envolvem a parte superior do site */
+/* conteudo relacionado ao topo do site */
 
 form {
     display: flex;
@@ -48,10 +48,10 @@ header {
   
   @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
   
-    o {
+  .conteiner_cabecalho {
     position: relative;
     width: 100%;
-    background-color: rgba(210, 105, 30, 0.8); /* Cor com opacidade */
+    /* background-color: rgba(210, 105, 30, 0.8);  */
     background-image: url('https://www.tastingtable.com/img/gallery/what-the-shape-of-your-assorted-box-of-chocolate-is-trying-to-tell-you/l-intro-1667835716.jpg');
     background-size: cover;
     background-position: center;
@@ -59,7 +59,7 @@ header {
     align-items: center;
     justify-content: center;
     color: white;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
  .conteiner_cabecalho::before {
@@ -129,30 +129,15 @@ header {
       line-height: 1.6;
   }
   
-  h1, h2, h3, h4, h5, h6 {
+  /* h1, h2, h3, h4, h5, h6 {
       font-family: 'Great Vibes', cursive;
       color: #8B4513;
-  }
-  
-/* tudo nestas linhas acima envolvem a parte superior do site */
+  } */
+
 
 section {
 padding: 20px;
 }
-#hero{
-background-image: url('./combu02.png');
-background-size: cover;
-color: #fff;
-text-align: center;
-}
-
-#hero .hero-content {
-max-width: 800px;
-margin: 0 auto;
-padding: 50px 0;
-color:#000
-}
-
 
 footer {
 background-color: #333;
